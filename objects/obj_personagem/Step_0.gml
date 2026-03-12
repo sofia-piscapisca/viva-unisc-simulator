@@ -1,9 +1,41 @@
-var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+right_key = keyboard_check(vk_right);
+up_key = keyboard_check(vk_up);
+left_key = keyboard_check(vk_left);
+down_key = keyboard_check(vk_down);
 
-var _len = _hor!=0 || _ver!=0;
-var _dir = point_direction(0, 0, _hor, _ver);
-_hor = lengthdir_x(_len, _dir);
-_ver = lengthdir_y(_len, _dir);
+//registrar valores de x e y
+xspeed = (right_key - left_key) * move_speed;
+yspeed = (down_key - up_key) * move_speed;
 
-move_and_collide(_hor * move_speed, _ver * move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
+//colisões
+if place_meeting(x + xspeed, y, obj_parede) 
+    {
+    xspeed = 0;
+    }
+if place_meeting(x, y + yspeed, obj_parede) 
+    { 
+    yspeed = 0;
+    }
+
+
+//movimento
+x += xspeed;
+y += yspeed;
+
+//definindo sprites
+if yspeed == 0
+    {
+    if xspeed > 0 {face = DIREITA};
+    if xspeed < 0 {face = ESQUERDA};
+    }
+if xspeed > 0 && face == ESQUERDA {face = DIREITA};
+if xspeed < 0 && face == DIREITA {face = ESQUERDA};
+
+if xspeed == 0
+    {
+    if yspeed > 0 {face = BAIXO};
+    if yspeed < 0 {face = CIMA};
+    }
+if yspeed > 0 && face == CIMA {face = BAIXO};
+if yspeed < 0 && face == BAIXO {face = CIMA};
+sprite_index = sprite[face];

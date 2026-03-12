@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_personagem",
-    "path":"sprites/spr_personagem/spr_personagem.yy",
+    "name":"spr_personagem_baixo",
+    "path":"sprites/spr_personagem_baixo/spr_personagem_baixo.yy",
   },
   "spriteMaskId":null,
   "visible":true,
