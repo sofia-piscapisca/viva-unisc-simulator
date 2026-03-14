@@ -19,7 +19,7 @@
   "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"292be7b6-42b1-4adb-a56e-63a4e6ca414c","blendMode":0,"displayName":"default","isLocked":false,"name":"292be7b6-42b1-4adb-a56e-63a4e6ca414c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"292be7b6-42b1-4adb-a56e-63a4e6ca414c","blendMode":0,"displayName":"default","isLocked":false,"name":"292be7b6-42b1-4adb-a56e-63a4e6ca414c","opacity":40.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_parede",
   "nineSlice":null,
