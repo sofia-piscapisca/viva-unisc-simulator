@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"aa Sistema do Menu","folderPath":"folders/aa Sistema do Menu.yy","name":"aa Sistema do Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Salas","folderPath":"folders/Salas.yy","name":"Salas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -25,10 +26,16 @@
   },
   "name":"viva unisc simulator",
   "resources":[
+    {"id":{"name":"obj_estandes","path":"objects/obj_estandes/obj_estandes.yy",},},
+    {"id":{"name":"obj_menu_principal","path":"objects/obj_menu_principal/obj_menu_principal.yy",},},
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
     {"id":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"rm_ginasio_dentro","path":"rooms/rm_ginasio_dentro/rm_ginasio_dentro.yy",},},
+    {"id":{"name":"rm_tela_inicial","path":"rooms/rm_tela_inicial/rm_tela_inicial.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
+    {"id":{"name":"spr_estandes","path":"sprites/spr_estandes/spr_estandes.yy",},},
+    {"id":{"name":"spr_fonte_principal","path":"sprites/spr_fonte_principal/spr_fonte_principal.yy",},},
+    {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
     {"id":{"name":"spr_personagem_baixo","path":"sprites/spr_personagem_baixo/spr_personagem_baixo.yy",},},
     {"id":{"name":"spr_personagem_cima","path":"sprites/spr_personagem_cima/spr_personagem_cima.yy",},},
@@ -40,7 +47,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"rm_tela_inicial","path":"rooms/rm_tela_inicial/rm_tela_inicial.yy",},},
+    {"roomId":{"name":"rm_ginasio_dentro","path":"rooms/rm_ginasio_dentro/rm_ginasio_dentro.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

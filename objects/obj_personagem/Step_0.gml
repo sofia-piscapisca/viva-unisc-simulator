@@ -47,3 +47,6 @@ if xspeed == 0 && yspeed == 0
     {
     image_index = 0;    
     }
+
+//profundidade
+depth = -bbox_bottom;
