@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_menu_principal",
+  "%Name":"obj_title_menu",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_menu_principal",
+  "name":"obj_title_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"aa Sistema do Menu",
-    "path":"folders/aa Sistema do Menu.yy",
+    "name":"Sistema do Menu",
+    "path":"folders/Sistema do Menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -51,8 +51,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"aa Sistema do Menu",
-    "path":"folders/aa Sistema do Menu.yy",
+    "name":"Sistema do Menu",
+    "path":"folders/Sistema do Menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
