@@ -3,9 +3,19 @@ up_key = keyboard_check(vk_up);
 left_key = keyboard_check(vk_left);
 down_key = keyboard_check(vk_down);
 
+
 //registrar valores de x e y
 xspeed = (right_key - left_key) * move_speed;
 yspeed = (down_key - up_key) * move_speed;
+
+
+//pause
+if instance_exists(obj_pauser)
+    {
+        xspeed = 0;
+        yspeed = 0;
+    }
+
 
 //definindo sprites
 mask_index = sprite[BAIXO]
@@ -37,6 +47,7 @@ if place_meeting(x, y + yspeed, obj_parede)
     yspeed = 0;
     }
 
+
 //movimento
 x += xspeed;
 y += yspeed;
@@ -47,6 +58,7 @@ if xspeed == 0 && yspeed == 0
     {
     image_index = 0;    
     }
+
 
 //profundidade
 depth = -bbox_bottom;
