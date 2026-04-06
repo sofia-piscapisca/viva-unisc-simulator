@@ -1,6 +1,15 @@
+function scr_definir_padroes_pro_texto(){
+    line_break_position[0, page_number] = 999;
+    line_break_number[page_number] = 0;
+    line_break_offset[page_number] = 0;
+}
+
+
 /// @param text
 function scr_text(_text){
 
+    scr_definir_padroes_pro_texto();
+    
     text[page_number] = _text;
     
     page_number++;

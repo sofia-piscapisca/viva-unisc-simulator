@@ -16,13 +16,82 @@ textbox_y = camera_get_view_y( view_camera[0] ) + 144;
         //loop pelas páginas
         for(var p = 0; p < page_number; p++)
             {
-                //descobrir quantos caractéres cada página tem e guardar o número no array "text_length"
+                
+                //descobrir quantos caracteres cada página tem e guardar o número no array "text_length"
                 text_length[p] = string_length(text[p]);
              
                    
                 //pegar a posição de x pra textbox
                     //sem personagem falando (centralizado)
                     text_x_offset[p] = 44;
+                
+                
+                //definindo caracteres individuais e onde as linhas de texto devem quebrar
+                for (var c = 0; c < text_length[p]; c++)
+                    {
+                        var _char_position = c+1;
+                        
+                        
+                        //guardar caracteres individuais na array "char"
+                        char[c, p] = string_char_at(text[p], _char_position);
+                        
+                        
+                        //pegar width atual da linha
+                        var _text_up_to_char = string_copy(text[p], 1, _char_position);
+                        var _current_text_width = string_width(_text_up_to_char) - string_width(char[c, p]);
+                        
+                        
+                        //definir ultimo espaço livre
+                        if char[c, p] == "" {last_free_space = _char_position+1};
+                        
+                        
+                        //definir as quebras de linha
+                        if _current_text_width - line_break_offset[p] > line_width
+                            {
+                                line_break_position[line_break_number[p], p] = last_free_space;
+                                line_break_number[p]++;
+                                var _text_up_to_last_space = string_copy(text[p], 1, last_free_space);
+                                var _last_free_space_string = string_char_at(text[p], last_free_space);
+                                line_break_offset[p] = string_width(_text_up_to_last_space) - string_width(_last_free_space_string);
+                            }
+                        
+                    }
+                
+                //definindo as coordenadas de cada caractere
+                for (var c = 0; c < text_length[p]; c++)
+                    {
+                        var _char_position = c+1;
+                        var _text_x = textbox_x + text_x_offset[p] + border;
+                        var _text_y = textbox_y + border;
+                        
+                        
+                        //pegar width atual da linha
+                        var _text_up_to_char = string_copy(text[p], 1, _char_position);
+                        var _current_text_width = string_width(_text_up_to_char) - string_width(char[c, p]);
+                        var _text_line = 0;
+                        
+                        
+                        //compensar pelas quebras
+                        for (var lbreak = 0; lbreak < line_break_number[p]; lbreak++)
+                            {
+                                
+                                //se o caractere atual do loop estiver após uma quebra de linha
+                                if _char_position >= line_break_position[lbreak, p]
+                                    {
+                                        var _string_copy = string_copy(text[p], line_break_position[lbreak, p], _char_position-line_break_position[lbreak, p]);
+                                        _current_text_width = string_width(_string_copy);
+                                        
+                                        
+                                        //gravar a linha que esse caractere deveria estar
+                                        _text_line = lbreak+1;
+                                    }
+                            }
+                        
+                        //atualizar as coordenadas x e y com base nas novas informações
+                        char_x[c, p] = _text_x + _current_text_width;
+                        char_y[c, p] = _text_y + _text_line*line_sep; 
+                    }
+                
             }
     }
 
@@ -39,10 +108,10 @@ if draw_char < text_length[page]
 if accept_key
     {
         
-        
         //se o texto ja foi escrito 
         if draw_char == text_length[page]
             {
+                
                 //proxima página
                 if page < page_number-1
                     {
@@ -66,7 +135,7 @@ if accept_key
             }
        
         
-         //se o texto ainda está sendo escrito
+        //se o texto ainda está sendo escrito
         else
             {
                 draw_char = text_length[page];
@@ -100,6 +169,7 @@ if draw_char == text_length[page] && page == page_number - 1
         var _option_border = 4;
         for(var opt = 0; opt < option_number; opt++)
             {
+                
                 //caixa de texto das opções
                 var _option_width = string_width(option[opt]) + _option_border*2;
                 draw_sprite_ext(textbox_spr, textbox_image, _textbox_x + 16, _textbox_y - _option_space*option_number + _option_space*opt, _option_width/textbox_spr_width, (_option_space-1)/textbox_spr_height, 0, c_white, 1);
@@ -118,6 +188,16 @@ if draw_char == text_length[page] && page == page_number - 1
     }
 
     
+
+
+
 //criar o texto
 var _drawtext = string_copy(text[page], 1, draw_char);
 draw_text_ext(_textbox_x + border, _textbox_y + border, _drawtext, line_sep, line_width);
+
+for (var c = 0; c < draw_char; c++)
+    {
+        
+       //o texto
+       draw_text(char_x[c, page], char_y[c, page], char[c, page]);
+    }

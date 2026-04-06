@@ -1,5 +1,6 @@
 depth = -9999
 
+
 //parametros textbox
 textbox_width = 200;
 textbox_height = 64;
@@ -16,8 +17,12 @@ page = 0;
 page_number = 0;
 text[0] = "";
 text_length[0] = string_length(text[0]);
+char[0, 0] = "";
+char_x[0, 0] = 0;
+char_y[0, 0] = 0;
 draw_char = 0;
 text_speed = 1;
+
 
 //opções
 option[0] = "";
@@ -26,3 +31,8 @@ option_position = 0;
 option_number = 0;
 
 setup = false;
+
+
+//efeitos
+scr_definir_padroes_pro_texto();
+last_free_space = 0; 
