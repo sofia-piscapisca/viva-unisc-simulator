@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Portrait",
-    "path":"folders/Sistema de Dialogo Novo/Portrait.yy",
+    "path":"folders/Sprites/Sistema de Dialogo/Portrait.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

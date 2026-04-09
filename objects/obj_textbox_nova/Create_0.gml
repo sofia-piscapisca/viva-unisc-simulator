@@ -20,8 +20,8 @@ y = display_get_gui_height() - height - margin;
 text_font = fnt_text;
 text_color = c_white;
 text_speed = 0.6;
-text_x = padding;
-text_y = padding * 3;
+text_x = padding * 4;
+text_y = padding * 4;
 text_width = width - padding * 2;
 
 //retrato
@@ -99,4 +99,3 @@ setText = function(newText) {
     text_length = string_length(newText);
     text_progress = 0;
 }
-

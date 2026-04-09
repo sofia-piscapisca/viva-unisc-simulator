@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sistema de Dialogo",
-    "path":"folders/Sistema de Dialogo.yy",
+    "name":"Sistema de Dialogo Antigo",
+    "path":"folders/Extras/Sistema de Dialogo Antigo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

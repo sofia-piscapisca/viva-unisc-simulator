@@ -6,8 +6,8 @@
   "name":"obj_estandes",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Visíveis",
+    "path":"folders/Objetos/Visíveis.yy",
   },
   "parentObjectId":{
     "name":"obj_parede",

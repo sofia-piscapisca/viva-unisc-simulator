@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Textbox",
-    "path":"folders/Sistema de Dialogo Novo/Textbox.yy",
+    "path":"folders/Sprites/Sistema de Dialogo/Textbox.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

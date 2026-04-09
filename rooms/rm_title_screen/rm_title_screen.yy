@@ -19,8 +19,8 @@
   ],
   "name":"rm_title_screen",
   "parent":{
-    "name":"Sistema do Menu",
-    "path":"folders/Sistema do Menu.yy",
+    "name":"Salas",
+    "path":"folders/Salas.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

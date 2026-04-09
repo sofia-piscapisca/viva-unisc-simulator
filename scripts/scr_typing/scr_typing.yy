@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_typing",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Sistema de Dialogo Novo/Scripts.yy",
+    "name":"Sistema de Dialogo",
+    "path":"folders/Scripts/Sistema de Dialogo.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

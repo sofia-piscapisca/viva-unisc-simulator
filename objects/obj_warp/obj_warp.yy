@@ -11,8 +11,8 @@
   "name":"obj_warp",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Invisíveis",
+    "path":"folders/Objetos/Invisíveis.yy",
   },
   "parentObjectId":{
     "name":"obj_pauser",

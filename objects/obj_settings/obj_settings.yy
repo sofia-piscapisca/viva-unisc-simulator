@@ -9,8 +9,8 @@
   "name":"obj_settings",
   "overriddenProperties":[],
   "parent":{
-    "name":"Sistema do Menu",
-    "path":"folders/Sistema do Menu.yy",
+    "name":"Sistema de Menu",
+    "path":"folders/Objetos/Sistema de Menu.yy",
   },
   "parentObjectId":null,
   "persistent":true,

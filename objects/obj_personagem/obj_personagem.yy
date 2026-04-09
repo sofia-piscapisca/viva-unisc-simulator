@@ -9,8 +9,8 @@
   "name":"obj_personagem",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Visíveis",
+    "path":"folders/Objetos/Visíveis.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_personagem_baixo",
-    "path":"sprites/spr_personagem_baixo/spr_personagem_baixo.yy",
+    "name":"spr_perso_baixo_idle",
+    "path":"sprites/spr_perso_baixo_idle/spr_perso_baixo_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -17,8 +17,8 @@
   ],
   "name":"rm_teste_sistema_de_dialogo_1",
   "parent":{
-    "name":"Sistema de Dialogo Novo",
-    "path":"folders/Sistema de Dialogo Novo.yy",
+    "name":"Salas",
+    "path":"folders/Salas.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

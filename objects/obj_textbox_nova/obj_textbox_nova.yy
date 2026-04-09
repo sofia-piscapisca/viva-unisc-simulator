@@ -11,10 +11,13 @@
   "name":"obj_textbox_nova",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Sistema de Dialogo Novo/Objetos.yy",
+    "name":"Sistema de Dialogo",
+    "path":"folders/Objetos/Sistema de Dialogo.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_pauser",
+    "path":"objects/obj_pauser/obj_pauser.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

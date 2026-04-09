@@ -19,8 +19,8 @@
   ],
   "name":"rm_teste_sistema_de_dialogo",
   "parent":{
-    "name":"Sistema de Dialogo",
-    "path":"folders/Sistema de Dialogo.yy",
+    "name":"Sistema de Dialogo Antigo",
+    "path":"folders/Extras/Sistema de Dialogo Antigo.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

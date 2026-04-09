@@ -8,8 +8,8 @@
   "name":"obj_teste",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Sistema de Dialogo Novo/Objetos.yy",
+    "name":"Sistema de Dialogo",
+    "path":"folders/Objetos/Sistema de Dialogo.yy",
   },
   "parentObjectId":null,
   "persistent":false,

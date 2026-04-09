@@ -11,7 +11,7 @@ var finished = text_progress == text_length;
 //retrato
 if (sprite_exists(portrait_sprite)) {
     //diminuir width do texto pela width que o retrato vai usar
-    draw_text_width -= portrait_width + portrait_x + padding;
+    draw_text_width -= portrait_width + portrait_x + padding * 4;
     
     //variaveis do retrato
     var draw_portrait_x = x + portrait_x;
@@ -21,7 +21,7 @@ if (sprite_exists(portrait_sprite)) {
     //qual lado o retrato está?
     if (portrait_side == PORTRAIT_SIDE.LEFT) {
         //deslocar o texto para a direita quando a retrato estiver à esquerda
-        draw_text_x += portrait_width + portrait_x + padding;
+        draw_text_x += portrait_width + portrait_x + padding - 20;
     }
     else {
         //deslocar o próprio retrato quando ele estiver à direita

@@ -178,8 +178,8 @@
   "maintainGms1Font":false,
   "name":"fnt_text",
   "parent":{
-    "name":"Sistema de Dialogo Novo",
-    "path":"folders/Sistema de Dialogo Novo.yy",
+    "name":"Fontes",
+    "path":"folders/Fontes.yy",
   },
   "pointRounding":0,
   "ranges":[
