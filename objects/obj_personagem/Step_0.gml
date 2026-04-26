@@ -1,4 +1,4 @@
-right_key= keyboard_check(vk_right);
+right_key = keyboard_check(vk_right);
 up_key = keyboard_check(vk_up);
 left_key = keyboard_check(vk_left);
 down_key = keyboard_check(vk_down);
@@ -174,10 +174,6 @@ if (keyboard_check_pressed(ord("E"))) {
         startDialogue("Perguntas - Cie Economicas");
     }
 }
-
-    //var check_x = lengthdir_x(16, direction * 90) + x;
-    //var check_y = lengthdir_y(16, direction * 90) + y;
-    
 
 //profundidade
 depth = -bbox_bottom;

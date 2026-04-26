@@ -7,7 +7,7 @@ op_space = 16;
 pos = 0;
 
 //menu inicial
-option[0, 0] = "Iniciar Experiencia";
+option[0, 0] = "Iniciar";
 option[0, 1] = "Opcoes";
 option[0, 2] = "Sair";
 

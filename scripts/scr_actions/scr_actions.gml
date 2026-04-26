@@ -3,6 +3,7 @@
 #macro CHOICE new ChoiceAction
 #macro OPTION new OptionAction 
 #macro GOTO new GotoAction 
+#macro RESIZE_OPTIONS new ResizeOptionsAction 
 
 function DialogueAction() constructor {
 	act = function() { };
@@ -70,4 +71,17 @@ function GotoAction(_topic): DialogueAction() constructor {
     act = function(textbox) {
         textbox.setTopic(topic);
     }
+}
+
+function ResizeOptionsAction(width = undefined, height = undefined, spacing = undefined) : DialogueAction() constructor {
+    self.width = width;
+    self.height = height;
+    self.spacing = spacing;
+    
+    act = function(textbox) {
+        textbox.option_width = width ?? textbox.option_width;
+        textbox.option_height = height ?? textbox.option_height;
+        textbox.option_spacing = spacing ?? textbox.option_spacing;
+        textbox.next();    
+    };
 }

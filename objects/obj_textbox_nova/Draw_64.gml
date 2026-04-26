@@ -44,15 +44,23 @@ if (sprite_exists(portrait_sprite)) {
 //speaker 
 if (speaker_name != "") {
     //expandir o sprite do nome se o nome for maior que a width original
-    var name_w = max(string_width(speaker_name), speaker_width);
+    var name_w = max(string_width(speaker_name) + speaker_padding, speaker_width);
     
-    draw_sprite_stretched(spr_name, 0, x + speaker_x, y + speaker_y - speaker_height / 2, name_w, speaker_height);
+    var draw_speaker_x = x + speaker_x;
+    
+    // de que lado a caixa do nome está?
+    if (portrait_side != PORTRAIT_SIDE.LEFT) {
+        // mudar a caixa de texto para direita quando o portrait estivar na direita
+        draw_speaker_x = x + width - name_w - speaker_x;
+    }
+    
+    draw_sprite_stretched(spr_name, 0, draw_speaker_x, y + speaker_y - speaker_height / 2, name_w, speaker_height);
     
     draw_set_halign(fa_center);
     draw_set_valign(fa_center);
     draw_set_font(speaker_font);
     draw_set_color(speaker_color);
-    draw_text(x + speaker_x + name_w / 2, y + speaker_y, speaker_name);
+    draw_text(draw_speaker_x + name_w / 2, y + speaker_y, speaker_name);
     
 }
 
@@ -81,3 +89,4 @@ if (finished && option_count > 0) {
         draw_text(opt_x + option_text_x, opt_y, options[i].text);
     }
 }
+ 

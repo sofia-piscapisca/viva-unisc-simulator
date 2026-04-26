@@ -24,15 +24,15 @@
   "name":"spr_name",
   "nineSlice":{
     "$GMNineSliceData":"",
-    "bottom":0,
-    "enabled":false,
+    "bottom":8,
+    "enabled":true,
     "guideColour":[4294902015,4294902015,4294902015,4294902015,],
     "highlightColour":1728023040,
     "highlightStyle":0,
-    "left":34,
+    "left":16,
     "resourceType":"GMNineSliceData",
     "resourceVersion":"2.0",
-    "right":34,
+    "right":16,
     "tileMode":[
       0,
       0,
@@ -40,7 +40,7 @@
       0,
       0,
     ],
-    "top":0,
+    "top":8,
   },
   "origin":0,
   "parent":{

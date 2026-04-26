@@ -3,7 +3,7 @@
 //input
 confirm_key = vk_space;
 up_key = vk_up;
-down_key = vk_down;
+down_key = vk_down; 
 max_input_delay = 5;
 input_delay = max_input_delay;
 
@@ -20,8 +20,8 @@ y = display_get_gui_height() - height - margin;
 text_font = fnt_text;
 text_color = c_white;
 text_speed = 0.6;
-text_x = padding * 4;
-text_y = padding * 4;
+text_x = padding * 3;
+text_y = padding * 2.5;
 text_width = width - padding * 2;
 
 //retrato
@@ -29,10 +29,11 @@ portrait_x = padding;
 portrait_y = padding;
 
 //speaker
-speaker_x = padding;
-speaker_y = 0;
+speaker_x = 0;
+speaker_y = -24;
 speaker_font = fnt_text;
 speaker_color = c_white
+speaker_padding = 12;
 
 //opções
 option_x = padding;
@@ -64,7 +65,7 @@ enum PORTRAIT_SIDE {
 }
 
 speaker_name = "";
-speaker_width = sprite_get_width(spr_name);
+speaker_width = sprite_get_width(spr_name) + 18;
 speaker_height = sprite_get_height(spr_name);
 
 options = [];
