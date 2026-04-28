@@ -1,4 +1,4 @@
-target_x = 496;
-target_y = 408;
+target_x = 472;
+target_y = 352;
 target_rm = rm_ginasio_dentro;
 target_face = BAIXO

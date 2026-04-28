@@ -419,7 +419,8 @@ global.topics[$ "Eng Computaçao 5"] = [
     SPEAKER("Prof Leonel", spr_port_profroxo, PORTRAIT_SIDE.RIGHT),
     TEXT("Eu acredito que é uma área desafiadora mas que oferece muitas oportunidades. É uma área em que você começa a desenvolver muito cedo uma maturidade, porque você tem a possibilidade de entrar no mercado de trabalho já no primeiro ou segundo ano."),
     TEXT("É uma área que além da parte técnica, é necessário desenvolver as soft skills, porque cada vez mais, a tecnologia entra muito na vida das pessoas, e o aluno precisa aprender a ensinar essa tecnologia e ajudar as pessoas a adotarem essa tecnologia."),
-    TEXT("Mas evidentemente não é um curso fácil, você tem que se dedicar muito, estudar muito. Visto isso, se você gosta de desafios, se você se interessa pela área de exatas e se tem interesse em como as tecnologias que vemos ao nosso redor no dia a dia são construídas, eu acredito que a Engenharia de Computação, é um curso muito importante e que seria uma ótima escolha para sua graduação."), 
+    TEXT("Mas evidentemente não é um curso fácil, você tem que se dedicar muito, estudar muito."), 
+    TEXT("Visto isso, se você gosta de desafios, se você se interessa pela área de exatas e se tem interesse em como as tecnologias que vemos ao nosso redor no dia a dia são construídas, eu acredito que a Engenharia de Computação, é um curso muito importante e que seria uma ótima escolha para sua graduação."),
     GOTO("Fim da conversa - Eng Computaçao")
 ];
 
@@ -1526,8 +1527,10 @@ global.topics[$ "Geografia 3"] = [
     SPEAKER("Você", spr_port_personagem, PORTRAIT_SIDE.LEFT),
     TEXT("Que tipos de cadeiras posso esperar encontrar durante o curso?"),
     SPEAKER("Prof Everton", spr_port_profroxo, PORTRAIT_SIDE.RIGHT),    
-    TEXT("Temos a Alfabetização Cartográfica, que ensina a criar e realizar a leitura de mapas. Também possuímos a questão social, onde o aluno faz o uso de programas de Sistema de Informação Geográfica, como o QGIS, para realizar a criação e análise de mapas, além de poder mapear uma região específica para catalogar locais onde questões sociais não são atingidas."),
-    TEXT("Além disso, o Curso de Geografia está em constante contato com outros tipos de disciplinas. Por exemplo, no caso das escalas, a conversão dos quilômetros, metros e centímetros é ensinada ao longo do curso. Mas, se os alunos estiverem com dificuldade, é possível realizarmos aulas junto com o Curso de Matemática, para tentar sanar as suas dúvidas."),
+    TEXT("Temos a Alfabetização Cartográfica, que ensina a criar e realizar a leitura de mapas. Também possuímos a questão social, onde o aluno faz o uso de programas de Sistema de Informação Geográfica, como o QGIS, para realizar a criação e análise de mapas,"),
+    TEXT("além de poder mapear uma região específica para catalogar locais onde questões sociais não são atingidas."),
+    TEXT("Além disso, o Curso de Geografia está em constante contato com outros tipos de disciplinas. Por exemplo, no caso das escalas, a conversão dos quilômetros, metros e centímetros é ensinada ao longo do curso."),
+    TEXT("Mas, se os alunos estiverem com dificuldade, é possível realizarmos aulas junto com o Curso de Matemática, para tentar sanar as suas dúvidas."),
     GOTO("Fim da conversa - Geografia")
 ];
 
@@ -1637,7 +1640,8 @@ global.topics[$ "Pedagogia 6"] = [
     SPEAKER("Você", spr_port_personagem, PORTRAIT_SIDE.LEFT),
     TEXT("Quais são as principais áreas que um profissional formado no curso pode atuar?"),
     SPEAKER("Prof Susana", spr_port_profrosa, PORTRAIT_SIDE.RIGHT),
-    TEXT("Os campos de atuação da Pedagogia estão, na sua maioria, em volta da educação, podendo ser no tratamento de crianças de 0 a 10 anos, educação infantil, anos iniciais do ensino fundamental. Mas, também há as áreas de atuação em espaços não educacionais, como o EJA, a pedagogia empresarial e a pedagogia hospitalar."),
+    TEXT("Os campos de atuação da Pedagogia estão, na sua maioria, em volta da educação, podendo ser no tratamento de crianças de 0 a 10 anos, educação infantil, anos iniciais do ensino fundamental."),
+    TEXT("Mas, também há as áreas de atuação em espaços não educacionais, como o EJA, a pedagogia empresarial e a pedagogia hospitalar."),
     GOTO("Fim da conversa - Pedagogia")
 ];
 
@@ -1812,6 +1816,7 @@ global.topics[$ "Matematica 7"] = [
 ];
 
 global.topics[$ "Fim da conversa - Matematica"] = [
+    RESIZE_OPTIONS(90),
     CHOICE("Você gostaria de saber mais alguma coisa?",
         OPTION("Sim", "Reiniciar Conversa - Matematica"),
         OPTION("Não", "Finalizar Conversa - Matematica"))
@@ -1944,7 +1949,8 @@ global.topics[$ "Cie Biologicas 3"] = [
     SPEAKER("Você", spr_port_personagem, PORTRAIT_SIDE.LEFT),
     TEXT("Que tipos de cadeiras posso esperar encontrar durante o curso?"),
     SPEAKER("Prof Marisa", spr_port_profazul, PORTRAIT_SIDE.RIGHT),    
-    TEXT("O Curso de Ciências Biológicas tem uma ampla variedade de possibilidades, visto que a Biologia é uma área muito ampla. Nós temos disciplinas mais específicas da área, como Zoologia, Botânica, Biotecnologia, Fundamentos Biológicos, Anatomia Humana, Fisiologia Humana, Fisiologia Vegetal e Animal, Ecologia, assim como temos cadeiras nas áreas da Química, Física, Matemática, entre outras."),
+    TEXT("O Curso de Ciências Biológicas tem uma ampla variedade de possibilidades, visto que a Biologia é uma área muito ampla. "),
+    TEXT("Nós temos disciplinas mais específicas da área, como Zoologia, Botânica, Biotecnologia, Fundamentos Biológicos, Anatomia Humana, Fisiologia Humana, Fisiologia Vegetal e Animal, Ecologia, assim como temos cadeiras nas áreas da Química, Física, Matemática, entre outras."),
     GOTO("Fim da conversa - Cie Biologicas")
 ];
 
@@ -2226,7 +2232,7 @@ global.topics[$ "Cie Contabeis 5"] = [
     SPEAKER("Prof Ricardo", spr_port_profverde, PORTRAIT_SIDE.RIGHT),
     TEXT("O conselho é mais sobre o senso de oportunidades, principalmente quando os alunos procuram aqui no Viva Unisc,"),
     TEXT("não só a área contábil, nós sempre direcionamos o aluno para uma análise pessoal, para ver o perfil dele, se ele se enquadra com os cursos da área de gestão, se ele se identifica com essa área."),
-    TEXT("Nós mostramos as oportunidades que ele tem, se ele for pensar somente na questão da área fiscal e tributária, com a reforma tributária nós vamos ter mudanças de oportunidades acontecendo já desde hoje, até 2032. Nós também tivemos a reforma trabalhista, que deu outro “up” para área e a formação."),
+    TEXT("Nós mostramos as oportunidades que ele tem, se ele for pensar somente na questão da área fiscal e tributária, com a reforma tributária nós vamos ter mudanças de oportunidades acontecendo já desde hoje, até 2032. Nós também tivemos a reforma trabalhista, que deu outro 'up' para área e a formação."),
     TEXT("A nossa área é voltada para a parte técnica, então ela se diferencia um pouco da Administração por conta dessa abordagem, então nosso aluno sai muito bem qualificado."),
     GOTO("Fim da conversa - Cie Contabeis")
 ];
@@ -2405,7 +2411,10 @@ global.topics[$ "Cie Economicas 6"] = [
     SPEAKER("Você", spr_port_personagem, PORTRAIT_SIDE.LEFT),
     TEXT("Quais são as principais áreas que um profissional formado no curso pode atuar?"),
     SPEAKER("Prof Silvio", spr_port_profciano, PORTRAIT_SIDE.RIGHT),
-    TEXT("11111111111111111111"),
+    TEXT("Então, o campo de atuação é bem variado, pode ser desde ser um profissional liberal, trabalhar com consultorias, assessoria econômica, elaboração de planos de investimento, avaliação de custos/produtividade, planejamento estratégico"),
+    TEXT("ou até mesmo trabalhar com orientação pessoal, realizando orçamento pessoal, finanças, aplicações, assessoria de investimento para pessoas físicas."),
+    TEXT("Já dentro de empresas as leque grande de atuações, como planejamento, prospecção, análise de cenários futuros, análises de como as políticas governamentais e as mudanças econômicas podem impactar a empresa, antecipação de tendências."),
+    TEXT("Além disso, opções dentro do setor público, como a orçamentação e políticas públicas também estão dentro do campo de atuação."),
     GOTO("Fim da conversa - Cie Economicas")
 ];
 
@@ -2641,7 +2650,8 @@ global.topics[$ "Terapia Ocupacional 3"] = [
     TEXT("Que tipos de cadeiras posso esperar encontrar durante o curso?"),
     SPEAKER("Terapeuta Francini", spr_port_profroxo, PORTRAIT_SIDE.RIGHT),    
     TEXT("Por ser um curso da área da saúde, há cadeiras que cobrem as partes introdutórias, como Anatomia e Fisiologia Humana e Bases Humanas do Cuidado em Saúde."),
-    TEXT("Mas uma boa parte das disciplinas são específicas da Terapia Ocupacional, principalmente pela variedade de locais e públicos os quais profissional pode trabalhar e se especializar, como a Terapia Ocupacional na Saúde Mental, Terapia Ocupacional na Pediatria e Terapia Ocupacional nas Interfaces da Reabilitação."),
+    TEXT("Mas uma boa parte das disciplinas são específicas da Terapia Ocupacional, principalmente pela variedade de locais e públicos os quais profissional pode trabalhar e se especializar,"),
+    TEXT("como a Terapia Ocupacional na Saúde Mental, Terapia Ocupacional na Pediatria e Terapia Ocupacional nas Interfaces da Reabilitação."),
     GOTO("Fim da conversa - Terapia Ocupacional")
 ];
 
@@ -2660,7 +2670,8 @@ global.topics[$ "Terapia Ocupacional 5"] = [
     TEXT("Acredito que o melhor conselho que consigo dar é estudar sobre a Terapia Ocupacional, ler, ver vídeos,"),
     TEXT("porque é uma profissão que já está no mercado há um certo tempo, existe muito espaço de trabalho e acredito que ao longo dos anos vai se expandir cada vez mais."),
     TEXT("Se a UNISC está abrindo o curso, significa que a comunidade de Santa Cruz e da região sinalizou para a instituição a importância de ter este profissional disponível no mercado, e é muito bacana pensar no potencial que essa profissão tem."),
-    TEXT("Então ler sobre os terapeutas ocupacionais e saber em que locais esses profissionais estão trabalhando, e buscar se identificar ou com o público infantil, ou com o público idoso, ou com o público da saúde mental, para ter uma possibilidade de uma profissão que não é muito falada, mas que pode gerar uma identificação muito bacana quando a pessoa passar a conhecê-la."),
+    TEXT("Então ler sobre os terapeutas ocupacionais e saber em que locais esses profissionais estão trabalhando, e buscar se identificar ou com o público infantil, ou com o público idoso, ou com o público da saúde mental,"),
+    TEXT("para ter uma possibilidade de uma profissão que não é muito falada, mas que pode gerar uma identificação muito bacana quando a pessoa passar a conhecê-la."),
     GOTO("Fim da conversa - Terapia Ocupacional")
 ];
 

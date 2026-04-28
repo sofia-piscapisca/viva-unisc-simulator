@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object22",
+  "%Name":"obj_sol",
   "eventList":[],
   "managed":true,
-  "name":"Object22",
+  "name":"obj_sol",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_estande2",
-    "path":"sprites/spr_estande2/spr_estande2.yy",
+    "name":"spr_sol",
+    "path":"sprites/spr_sol/spr_sol.yy",
   },
   "spriteMaskId":null,
   "visible":true,
