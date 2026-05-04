@@ -8,8 +8,8 @@
   "name":"obj_banco1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Visíveis",
-    "path":"folders/Objetos/Visíveis.yy",
+    "name":"GInasio",
+    "path":"folders/Objetos/Visíveis/GInasio.yy",
   },
   "parentObjectId":{
     "name":"obj_parede",

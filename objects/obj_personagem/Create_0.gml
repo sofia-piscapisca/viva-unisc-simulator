@@ -2,6 +2,7 @@ xspeed = 0;
 yspeed = 0;
 move_speed = 1;
 
+
 //andar
 sprite[DIREITA] = spr_perso_direita;
 sprite[CIMA] = spr_perso_cima;

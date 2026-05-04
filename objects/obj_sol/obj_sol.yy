@@ -6,8 +6,8 @@
   "name":"obj_sol",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Creditos",
+    "path":"folders/Objetos/Visíveis/Creditos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

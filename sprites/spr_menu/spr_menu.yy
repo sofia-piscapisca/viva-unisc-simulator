@@ -52,7 +52,7 @@
   "origin":0,
   "parent":{
     "name":"Sistema de Menu",
-    "path":"folders/Sprites/Sistema de Menu.yy",
+    "path":"folders/Extras/Sistema de Menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1766,7 +1766,7 @@ global.topics[$ "Matematica 1"] = [
     SPEAKER("Você", spr_port_personagem, PORTRAIT_SIDE.LEFT),
     TEXT("Qual o seu nome e de que curso você é?"),
     SPEAKER("Prof Sérgio", spr_port_profverde, PORTRAIT_SIDE.RIGHT),
-    TEXT("Sou o professor Sérgio Célio Klamt, do curso de matemática."),
+    TEXT("Sou o professor Sérgio Célio Klamt, do Curso de Matemática."),
     GOTO("Fim da conversa - Matematica")
 ];
 

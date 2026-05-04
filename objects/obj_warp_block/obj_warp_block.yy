@@ -9,8 +9,8 @@
   "name":"obj_warp_block",
   "overriddenProperties":[],
   "parent":{
-    "name":"Invisíveis",
-    "path":"folders/Objetos/Invisíveis.yy",
+    "name":"GInasio",
+    "path":"folders/Objetos/Invisíveis/GInasio.yy",
   },
   "parentObjectId":null,
   "persistent":false,
