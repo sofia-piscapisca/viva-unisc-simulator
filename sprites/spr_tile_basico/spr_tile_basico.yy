@@ -4,7 +4,11 @@
   "bboxMode":0,
   "bbox_bottom":127,
   "bbox_left":0,
-  "bbox_right":207,
+<<<<<<< Updated upstream
+  "bbox_right":95,
+=======
+  "bbox_right":255,
+>>>>>>> Stashed changes
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -25,8 +29,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Ginasio",
-    "path":"folders/Sprites/Ginasio.yy",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -86,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":256,
+  "width":128,
 }

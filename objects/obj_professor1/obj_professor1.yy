@@ -13,10 +13,7 @@
     "name":"Visíveis",
     "path":"folders/Objetos/Visíveis.yy",
   },
-  "parentObjectId":{
-    "name":"obj_parede",
-    "path":"objects/obj_parede/obj_parede.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

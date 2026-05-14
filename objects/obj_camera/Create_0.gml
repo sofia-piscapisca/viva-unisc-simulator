@@ -9,14 +9,16 @@ if (frac(_max_height_scale) == 0){
 }
 
 window_scale = floor(min(_max_height_scale, _max_width_scale));
-window_set_size(base_width * window_scale, base_height * window_scale);
+//window_set_size(base_width * window_scale, base_height * window_scale);
+window_set_size(1280, 960)
 window_center();
 
 surface_resize(application_surface, base_width, base_height);
 //surface_resize(application_surface, base_width * window_scale, base_height * window_scale);
-//display_set_gui_size(base_width, base_height);
+display_set_gui_size(1280, 960);
 
-room_goto(rm_menu);
+//room_goto(rm_menu);
+room_goto_next();
 
 snap_to_target = function(){
     if (!instance_exists(obj_personagem)) return;

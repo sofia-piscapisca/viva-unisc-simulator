@@ -1,0 +1,51 @@
+{
+  "$GMObject":"",
+<<<<<<<< Updated upstream:objects/obj_estandes/obj_estandes.yy
+  "%Name":"obj_estandes",
+  "eventList":[],
+  "managed":true,
+  "name":"obj_estandes",
+========
+  "%Name":"obj_cartazes2",
+  "eventList":[],
+  "managed":true,
+  "name":"obj_cartazes2",
+>>>>>>>> Stashed changes:objects/obj_cartazes2/obj_cartazes2.yy
+  "overriddenProperties":[],
+  "parent":{
+    "name":"Visíveis",
+    "path":"folders/Objetos/Visíveis.yy",
+  },
+  "parentObjectId":{
+    "name":"obj_parede",
+    "path":"objects/obj_parede/obj_parede.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+<<<<<<<< Updated upstream:objects/obj_estandes/obj_estandes.yy
+    "name":"spr_estandes",
+    "path":"sprites/spr_estandes/spr_estandes.yy",
+========
+    "name":"spr_cartazes2",
+    "path":"sprites/spr_cartazes2/spr_cartazes2.yy",
+>>>>>>>> Stashed changes:objects/obj_cartazes2/obj_cartazes2.yy
+  },
+  "spriteMaskId":null,
+  "visible":true,
+}

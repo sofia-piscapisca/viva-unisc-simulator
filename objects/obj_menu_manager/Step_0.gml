@@ -32,3 +32,5 @@ if accept_key && !instance_exists(obj_transition_manager_menu) {
     }
 }
 
+
+
