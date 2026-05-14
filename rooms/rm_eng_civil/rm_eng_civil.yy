@@ -30,8 +30,20 @@
     {"name":"inst_2F219349_1_1_1","path":"rooms/rm_eng_civil/rm_eng_civil.yy",},
     {"name":"inst_389BC2FF1_1_1","path":"rooms/rm_eng_civil/rm_eng_civil.yy",},
     {"name":"inst_21A87C44_1_1_1","path":"rooms/rm_eng_civil/rm_eng_civil.yy",},
+<<<<<<< Updated upstream
     {"name":"inst_7D13545F1_1_1","path":"rooms/rm_eng_civil/rm_eng_civil.yy",},
     {"name":"inst_44BE4885","path":"rooms/rm_eng_civil/rm_eng_civil.yy",},
+=======
+    {"name":"inst_5E3F79CC","path":"rooms/rm_eng_civil/rm_eng_civil.yy",},
+    {"name":"ent_eng_civil","path":"rooms/rm_eng_civil/rm_eng_civil.yy",},
+    {"name":"inst_2C2EE59B","path":"rooms/rm_eng_civil/rm_eng_civil.yy",},
+    {"name":"inst_1B37804F","path":"rooms/rm_eng_civil/rm_eng_civil.yy",},
+    {"name":"inst_4F77F610","path":"rooms/rm_eng_civil/rm_eng_civil.yy",},
+    {"name":"inst_6950FBDC","path":"rooms/rm_eng_civil/rm_eng_civil.yy",},
+    {"name":"inst_1F3D36DE","path":"rooms/rm_eng_civil/rm_eng_civil.yy",},
+    {"name":"inst_572EEC2D","path":"rooms/rm_eng_civil/rm_eng_civil.yy",},
+    {"name":"inst_157D20F4","path":"rooms/rm_eng_civil/rm_eng_civil.yy",},
+>>>>>>> Stashed changes
   ],
   "isDnd":false,
   "layers":[
@@ -61,9 +73,23 @@
         {"$GMRInstance":"v4","%Name":"inst_389BC2FF1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_389BC2FF1_1_1","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_21A87C44_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_21A87C44_1_1_1","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":160.0,},
       ],"layers":[],"name":"Paredes","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
+<<<<<<< Updated upstream
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_7D13545F1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D13545F1_1_1","objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.75,"scaleY":1.0,"x":130.0,"y":172.0,},
         {"$GMRInstance":"v4","%Name":"inst_44BE4885","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44BE4885","objectId":{"name":"obj_professor4","path":"objects/obj_professor4/obj_professor4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":128.0,},
+=======
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_5E3F79CC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5E3F79CC","objectId":{"name":"obj_professor1","path":"objects/obj_professor1/obj_professor1.yy",},"previewSprite":{"name":"spr_professor4","path":"sprites/spr_professor4/spr_professor4.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_professor1","path":"objects/obj_professor1/obj_professor1.yy",},"propertyId":{"name":"dialogue","path":"objects/obj_professor1/obj_professor1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Perguntas - Eng Civil\"",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_professor1","path":"objects/obj_professor1/obj_professor1.yy",},"propertyId":{"name":"icon","path":"objects/obj_professor1/obj_professor1.yy",},"resource":{"name":"spr_icon_vermelho","path":"sprites/spr_icon_vermelho/spr_icon_vermelho.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_icon_vermelho",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":128.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1B37804F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1B37804F","objectId":{"name":"obj_cartazes2","path":"objects/obj_cartazes2/obj_cartazes2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":112.0,"y":48.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6950FBDC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6950FBDC","objectId":{"name":"obj_cadeira_direita","path":"objects/obj_cadeira_direita/obj_cadeira_direita.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":91.0,"y":104.5,},
+        {"$GMRInstance":"v4","%Name":"inst_1F3D36DE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1F3D36DE","objectId":{"name":"obj_cadeira_esquerda","path":"objects/obj_cadeira_esquerda/obj_cadeira_esquerda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":129.0,"y":104.5,},
+        {"$GMRInstance":"v4","%Name":"inst_4F77F610","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F77F610","objectId":{"name":"obj_mesa_redonda","path":"objects/obj_mesa_redonda/obj_mesa_redonda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":110.0,"y":105.5,},
+        {"$GMRInstance":"v4","%Name":"inst_572EEC2D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_572EEC2D","objectId":{"name":"obj_mesa_larga_v","path":"objects/obj_mesa_larga_v/obj_mesa_larga_v.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":199.0,"y":120.0,},
+        {"$GMRInstance":"v4","%Name":"inst_157D20F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_157D20F4","objectId":{"name":"obj_mesa_peq_h","path":"objects/obj_mesa_peq_h/obj_mesa_peq_h.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":103.0,"y":145.0,},
+>>>>>>> Stashed changes
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":14,"SerialiseWidth":18,"TileCompressedData":[
           -40,1,1,11,-8,12,1,13,-8,1,1,19,-8,20,1,21,-8,1,1,19,-8,20,1,21,-8,1,1,19,-8,20,1,21,-8,1,2,19,8,-6,

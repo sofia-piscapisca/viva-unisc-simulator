@@ -4,7 +4,11 @@
   "bboxMode":0,
   "bbox_bottom":127,
   "bbox_left":0,
+<<<<<<< Updated upstream
   "bbox_right":95,
+=======
+  "bbox_right":255,
+>>>>>>> Stashed changes
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

@@ -18,8 +18,10 @@ global.topics[$ "Bem vindo"] = [
     TEXT("Porém infelizmente os estandes ainda não estão abertos para o público")
 ];
 
-
-
+global.topics[$ "Item 1"] = [
+    SPEAKER("Você", spr_port_personagem, PORTRAIT_SIDE.LEFT),
+    TEXT("Maravilha! Consegui o selo do Curso de Arquitetura e Urbanismo")
+];
 
 // FILEIRA 1 
 //--------------- Arquitetura e Urbanismo | Verde ---------------//
@@ -33,7 +35,8 @@ global.topics[$ "Perguntas - Arq Urb"] = [
         OPTION("Sobre o bloco", "Arq Urb 4"),
         OPTION("Sobre conselhos", "Arq Urb 5"),
         OPTION("Sobre áreas de atuação", "Arq Urb 6"),
-        OPTION("Sair da conversa", "Arq Urb 7"))
+        OPTION("Sair da conversa", "Arq Urb 7"),
+        OPTION("Teste item", "Teste item 1"))
 ];
 
 global.topics[$ "Arq Urb 1"] = [ 
@@ -99,12 +102,16 @@ global.topics[$ "Fim da conversa - Arq Urb"] = [
 
 global.topics[$ "Reiniciar Conversa - Arq Urb"] = [
     GOTO("Perguntas - Arq Urb")
-]
+];
 
 global.topics[$ "Finalizar Conversa - Arq Urb"] = [
     TEXT("Se tiver mais perguntas sobre o Curso de Arquitetura e Urbanismo pode vir falar comigo!")  
 ];
 
+global.topics[$ "Teste item 1"] = [
+    TEXT("Pode pegar seu item agora!"),
+    GIVE_ITEM(obj_colecionavel)
+];
 
 //-------------- Agronomia | Azul ---------------//
 global.topics[$ "Perguntas - Agronomia"] = [ 

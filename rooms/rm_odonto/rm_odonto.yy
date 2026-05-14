@@ -30,8 +30,19 @@
     {"name":"inst_2F219349_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/rm_odonto/rm_odonto.yy",},
     {"name":"inst_389BC2FF1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/rm_odonto/rm_odonto.yy",},
     {"name":"inst_21A87C44_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/rm_odonto/rm_odonto.yy",},
+<<<<<<< Updated upstream
     {"name":"inst_7D13545F1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/rm_odonto/rm_odonto.yy",},
     {"name":"inst_3570DE40","path":"rooms/rm_odonto/rm_odonto.yy",},
+=======
+    {"name":"inst_760076EF","path":"rooms/rm_odonto/rm_odonto.yy",},
+    {"name":"ent_odonto","path":"rooms/rm_odonto/rm_odonto.yy",},
+    {"name":"inst_224A34C0","path":"rooms/rm_odonto/rm_odonto.yy",},
+    {"name":"inst_23FBC79F","path":"rooms/rm_odonto/rm_odonto.yy",},
+    {"name":"inst_139B1BB3","path":"rooms/rm_odonto/rm_odonto.yy",},
+    {"name":"inst_4148C37D","path":"rooms/rm_odonto/rm_odonto.yy",},
+    {"name":"inst_6A8E876E","path":"rooms/rm_odonto/rm_odonto.yy",},
+    {"name":"inst_51A8CEBB","path":"rooms/rm_odonto/rm_odonto.yy",},
+>>>>>>> Stashed changes
   ],
   "isDnd":false,
   "layers":[
@@ -61,9 +72,22 @@
         {"$GMRInstance":"v4","%Name":"inst_389BC2FF1_1_1_1_1_1_1_1_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_389BC2FF1_1_1_1_1_1_1_1_1_1_1_1_1","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_21A87C44_1_1_1_1_1_1_1_1_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_21A87C44_1_1_1_1_1_1_1_1_1_1_1_1_1","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":160.0,},
       ],"layers":[],"name":"Paredes","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
+<<<<<<< Updated upstream
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_7D13545F1_1_1_1_1_1_1_1_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D13545F1_1_1_1_1_1_1_1_1_1_1_1_1","objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.75,"scaleY":1.0,"x":130.0,"y":172.0,},
         {"$GMRInstance":"v4","%Name":"inst_3570DE40","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3570DE40","objectId":{"name":"obj_professor8","path":"objects/obj_professor8/obj_professor8.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":128.0,},
+=======
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_760076EF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_760076EF","objectId":{"name":"obj_professor1","path":"objects/obj_professor1/obj_professor1.yy",},"previewSprite":{"name":"spr_professor8","path":"sprites/spr_professor8/spr_professor8.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_professor1","path":"objects/obj_professor1/obj_professor1.yy",},"propertyId":{"name":"dialogue","path":"objects/obj_professor1/obj_professor1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Perguntas - Odontologia\"",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_professor1","path":"objects/obj_professor1/obj_professor1.yy",},"propertyId":{"name":"icon","path":"objects/obj_professor1/obj_professor1.yy",},"resource":{"name":"spr_icon_ciano","path":"sprites/spr_icon_ciano/spr_icon_ciano.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_icon_ciano",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":128.0,},
+        {"$GMRInstance":"v4","%Name":"inst_23FBC79F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":2,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_23FBC79F","objectId":{"name":"obj_mesa_peq_h","path":"objects/obj_mesa_peq_h/obj_mesa_peq_h.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":182.0,"y":100.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4148C37D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4148C37D","objectId":{"name":"obj_cadeira_direita","path":"objects/obj_cadeira_direita/obj_cadeira_direita.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":112.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6A8E876E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A8E876E","objectId":{"name":"obj_cadeira_cima","path":"objects/obj_cadeira_cima/obj_cadeira_cima.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":112.0,"y":99.0,},
+        {"$GMRInstance":"v4","%Name":"inst_139B1BB3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_139B1BB3","objectId":{"name":"obj_mesa_redonda","path":"objects/obj_mesa_redonda/obj_mesa_redonda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":112.0,"y":112.0,},
+        {"$GMRInstance":"v4","%Name":"inst_51A8CEBB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_51A8CEBB","objectId":{"name":"obj_cartazes1","path":"objects/obj_cartazes1/obj_cartazes1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":130.0,"y":48.0,},
+>>>>>>> Stashed changes
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":14,"SerialiseWidth":18,"TileCompressedData":[
           -40,1,1,11,-8,12,1,13,-8,1,1,19,-8,20,1,21,-8,1,1,19,-8,20,1,21,-8,1,1,19,-8,20,1,21,-8,1,2,19,8,-6,

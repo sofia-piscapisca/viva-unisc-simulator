@@ -4,6 +4,7 @@
 #macro OPTION new OptionAction 
 #macro GOTO new GotoAction 
 #macro RESIZE_OPTIONS new ResizeOptionsAction 
+#macro GIVE_ITEM new GiveItemAction 
 
 function DialogueAction() constructor {
 	act = function() { };
@@ -84,4 +85,13 @@ function ResizeOptionsAction(width = undefined, height = undefined, spacing = un
         textbox.option_spacing = spacing ?? textbox.option_spacing;
         textbox.next();    
     };
+}
+
+function GiveItemAction(_target) : DialogueAction() constructor {
+    target = _target
+
+    act = function(textbox) {
+        target.visible = true;
+        textbox.next();
+    }
 }

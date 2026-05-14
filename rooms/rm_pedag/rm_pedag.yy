@@ -30,8 +30,20 @@
     {"name":"inst_2F219349_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/rm_pedag/rm_pedag.yy",},
     {"name":"inst_389BC2FF1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/rm_pedag/rm_pedag.yy",},
     {"name":"inst_21A87C44_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/rm_pedag/rm_pedag.yy",},
+<<<<<<< Updated upstream
     {"name":"inst_7D13545F1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1","path":"rooms/rm_pedag/rm_pedag.yy",},
     {"name":"inst_128974A4","path":"rooms/rm_pedag/rm_pedag.yy",},
+=======
+    {"name":"inst_77EA90E","path":"rooms/rm_pedag/rm_pedag.yy",},
+    {"name":"ent_pedag","path":"rooms/rm_pedag/rm_pedag.yy",},
+    {"name":"inst_6D32208D","path":"rooms/rm_pedag/rm_pedag.yy",},
+    {"name":"inst_6FC25481","path":"rooms/rm_pedag/rm_pedag.yy",},
+    {"name":"inst_6019A756","path":"rooms/rm_pedag/rm_pedag.yy",},
+    {"name":"inst_2C8E53DD","path":"rooms/rm_pedag/rm_pedag.yy",},
+    {"name":"inst_6C93236A","path":"rooms/rm_pedag/rm_pedag.yy",},
+    {"name":"inst_7366D3D1","path":"rooms/rm_pedag/rm_pedag.yy",},
+    {"name":"inst_1E4FDD9A","path":"rooms/rm_pedag/rm_pedag.yy",},
+>>>>>>> Stashed changes
   ],
   "isDnd":false,
   "layers":[
@@ -61,6 +73,7 @@
         {"$GMRInstance":"v4","%Name":"inst_389BC2FF1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_389BC2FF1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_21A87C44_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_21A87C44_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":160.0,},
       ],"layers":[],"name":"Paredes","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
+<<<<<<< Updated upstream
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_7D13545F1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D13545F1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1","objectId":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.75,"scaleY":1.0,"x":130.0,"y":172.0,},
         {"$GMRInstance":"v4","%Name":"inst_128974A4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_128974A4","objectId":{"name":"obj_professor7","path":"objects/obj_professor7/obj_professor7.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":128.0,},
@@ -69,6 +82,25 @@
           -40,1,1,11,-8,12,1,13,-8,1,1,19,-8,20,1,21,-8,1,1,19,-8,20,1,21,-8,1,1,19,-8,20,1,21,-8,1,2,19,8,-6,
           9,2,10,21,-8,1,2,19,16,-6,17,2,18,21,-8,1,2,19,16,-6,17,2,18,21,-8,1,10,19,24,25,25,17,17,25,25,26,21,
           -8,1,10,27,28,28,20,24,26,20,28,28,29,-11,1,4,27,28,28,29,-43,1,
+=======
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_77EA90E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77EA90E","objectId":{"name":"obj_professor1","path":"objects/obj_professor1/obj_professor1.yy",},"previewSprite":{"name":"spr_professor7","path":"sprites/spr_professor7/spr_professor7.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_professor1","path":"objects/obj_professor1/obj_professor1.yy",},"propertyId":{"name":"dialogue","path":"objects/obj_professor1/obj_professor1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Perguntas - Pedagogia\"",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_professor1","path":"objects/obj_professor1/obj_professor1.yy",},"propertyId":{"name":"icon","path":"objects/obj_professor1/obj_professor1.yy",},"resource":{"name":"spr_icon_rosa","path":"sprites/spr_icon_rosa/spr_icon_rosa.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_icon_rosa",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":128.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6FC25481","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":13,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6FC25481","objectId":{"name":"obj_cartazes1","path":"objects/obj_cartazes1/obj_cartazes1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":48.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6019A756","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":2,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6019A756","objectId":{"name":"obj_cartazes2","path":"objects/obj_cartazes2/obj_cartazes2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":80.0,"y":47.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6C93236A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6C93236A","objectId":{"name":"obj_cadeira_esquerda","path":"objects/obj_cadeira_esquerda/obj_cadeira_esquerda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":200.0,"y":134.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7366D3D1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7366D3D1","objectId":{"name":"obj_cadeira_esquerda","path":"objects/obj_cadeira_esquerda/obj_cadeira_esquerda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":200.0,"y":114.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1E4FDD9A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1E4FDD9A","objectId":{"name":"obj_mesa_larga_v","path":"objects/obj_mesa_larga_v/obj_mesa_larga_v.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":90.0,"y":122.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2C8E53DD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C8E53DD","objectId":{"name":"obj_mesa_redonda","path":"objects/obj_mesa_redonda/obj_mesa_redonda.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":178.0,"y":125.0,},
+      ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":14,"SerialiseWidth":18,"TileCompressedData":[
+          -40,1,1,70,-8,71,1,72,-8,1,1,86,-8,87,1,88,-8,1,1,86,-8,87,1,88,-8,1,1,86,-8,87,1,88,-8,1,2,86,73,-6,
+          74,2,75,88,-8,1,10,86,89,90,25,26,27,28,90,91,88,-8,1,10,86,89,90,41,42,43,44,90,91,88,-8,1,10,86,105,
+          106,106,90,90,106,106,107,88,-8,1,10,102,103,103,87,105,107,87,103,103,104,-11,1,4,102,103,103,104,-43,
+          1,
+>>>>>>> Stashed changes
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_tiles_basicos","path":"tilesets/ts_tiles_basicos/ts_tiles_basicos.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

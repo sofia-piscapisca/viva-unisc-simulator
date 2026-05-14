@@ -39,14 +39,28 @@ if (xspeed == 0 && yspeed == 0)
 else
      sprite_index = sprite[face];
 
-//colisões
-if place_meeting(x + xspeed, y, obj_parede) {
-    xspeed = 0;
-}
-if place_meeting(x, y + yspeed, obj_parede) { 
-    yspeed = 0;
-}
 
+<<<<<<< Updated upstream
+=======
+//colisões
+    //parede
+    if place_meeting(x + xspeed, y, obj_parede) {
+        xspeed = 0;
+    }
+    if place_meeting(x, y + yspeed, obj_parede) { 
+        yspeed = 0;
+    }
+
+    //professor
+    if place_meeting(x + xspeed, y, obj_professor1) {
+        xspeed = 0;
+    }
+    if place_meeting(x, y + yspeed, obj_professor1) { 
+        yspeed = 0;
+    }
+
+
+>>>>>>> Stashed changes
 //movimento
 x += xspeed;
 y += yspeed;
