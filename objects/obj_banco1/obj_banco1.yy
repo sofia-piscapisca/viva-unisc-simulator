@@ -7,10 +7,6 @@
   "managed":true,
   "name":"obj_banco1",
   "overriddenProperties":[],
-  "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
-  },
   "parentObjectId":{
     "name":"obj_parede",
     "path":"objects/obj_parede/obj_parede.yy",

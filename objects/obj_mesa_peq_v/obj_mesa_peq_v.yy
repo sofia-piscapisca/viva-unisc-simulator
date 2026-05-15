@@ -7,10 +7,6 @@
   "managed":true,
   "name":"obj_mesa_peq_v",
   "overriddenProperties":[],
-  "parent":{
-    "name":"Estandes",
-    "path":"folders/Objetos/Visíveis/Estandes.yy",
-  },
   "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,

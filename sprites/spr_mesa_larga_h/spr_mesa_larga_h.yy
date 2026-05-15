@@ -24,10 +24,6 @@
   "name":"spr_mesa_larga_h",
   "nineSlice":null,
   "origin":4,
-  "parent":{
-    "name":"Estandes",
-    "path":"folders/Sprites/Estandes.yy",
-  },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",

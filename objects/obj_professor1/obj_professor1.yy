@@ -1,7 +1,11 @@
 {
   "$GMObject":"",
   "%Name":"obj_professor1",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_professor1",
   "overriddenProperties":[],
@@ -9,7 +13,10 @@
     "name":"Visíveis",
     "path":"folders/Objetos/Visíveis.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_parede",
+    "path":"objects/obj_parede/obj_parede.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -24,7 +31,10 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"scr_topics__","filters":[],"listItems":[],"multiselect":false,"name":"scr_topics__","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"dialogue","filters":[],"listItems":[],"multiselect":false,"name":"dialogue","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"\"","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"icon","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"icon","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

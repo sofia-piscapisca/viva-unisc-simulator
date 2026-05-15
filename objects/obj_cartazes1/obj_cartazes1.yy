@@ -1,16 +1,9 @@
 {
   "$GMObject":"",
-<<<<<<<< Updated upstream:objects/Object22/Object22.yy
-  "%Name":"Object22",
-  "eventList":[],
-  "managed":true,
-  "name":"Object22",
-========
   "%Name":"obj_cartazes1",
   "eventList":[],
   "managed":true,
   "name":"obj_cartazes1",
->>>>>>>> Stashed changes:objects/obj_cartazes1/obj_cartazes1.yy
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -35,13 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-<<<<<<<< Updated upstream:objects/Object22/Object22.yy
-    "name":"spr_estande2",
-    "path":"sprites/spr_estande2/spr_estande2.yy",
-========
     "name":"spr_cartazes1",
     "path":"sprites/spr_cartazes1/spr_cartazes1.yy",
->>>>>>>> Stashed changes:objects/obj_cartazes1/obj_cartazes1.yy
   },
   "spriteMaskId":null,
   "visible":true,

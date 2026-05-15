@@ -39,10 +39,6 @@
   "name":"spr_cartazes1",
   "nineSlice":null,
   "origin":0,
-  "parent":{
-    "name":"Estandes",
-    "path":"folders/Sprites/Estandes.yy",
-  },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",

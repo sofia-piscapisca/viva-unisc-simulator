@@ -3,7 +3,6 @@ up_key = keyboard_check_pressed(vk_up);
 down_key = keyboard_check_pressed(vk_down);
 accept_key = keyboard_check_pressed(vk_space);
 
-
 //mover-se no menu
 if up_key {
     selected--;
@@ -11,7 +10,6 @@ if up_key {
         selected = 2;
     }
 }
-
 
 if down_key {
     selected++;
@@ -33,6 +31,4 @@ if accept_key && !instance_exists(obj_transition_manager_menu) {
             break;
     }
 }
-
-
 

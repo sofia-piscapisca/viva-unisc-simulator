@@ -27,10 +27,6 @@
   "name":"spr_mesa_emL",
   "nineSlice":null,
   "origin":9,
-  "parent":{
-    "name":"Estandes",
-    "path":"folders/Sprites/Estandes.yy",
-  },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
